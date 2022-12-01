@@ -1,5 +1,6 @@
 package com.hastobe.transparenzsoftware;
 
+import com.hastobe.transparenzsoftware.v100.App;
 import org.junit.Test;
 
 public class AppTest {

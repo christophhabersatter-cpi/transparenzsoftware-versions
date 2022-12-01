@@ -1,6 +1,7 @@
 package com.hastobe.transparenzsoftware;
 
 import com.google.common.io.BaseEncoding;
+import com.hastobe.transparenzsoftware.v100.Utils;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,7 +1,7 @@
 package com.hastobe.transparenzsoftware;
 
-import com.hastobe.transparenzsoftware.verification.xml.Results;
-import com.hastobe.transparenzsoftware.verification.xml.Values;
+import com.hastobe.transparenzsoftware.v100.verification.xml.Results;
+import com.hastobe.transparenzsoftware.v100.verification.xml.Values;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

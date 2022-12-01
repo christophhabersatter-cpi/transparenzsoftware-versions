@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.hastobe</groupId>
-    <artifactId>com.hastobe.transparenzsoftware</artifactId>
+    <artifactId>com.hastobe.transparenzsoftware.v100</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
@@ -157,9 +157,9 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.hastobe.transparenzsoftware.App</mainClass>
+                                    <mainClass>com.hastobe.transparenzsoftware.v100.App</mainClass>
                                     <manifestEntries>
-                                        <Main-Class>com.hastobe.transparenzsoftware.App</Main-Class>
+                                        <Main-Class>com.hastobe.transparenzsoftware.v100.App</Main-Class>
                                         <Build-Number>1</Build-Number>
                                     </manifestEntries>
                                 </transformer>

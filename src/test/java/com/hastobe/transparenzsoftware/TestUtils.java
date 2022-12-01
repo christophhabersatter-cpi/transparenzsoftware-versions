@@ -1,9 +1,9 @@
 package com.hastobe.transparenzsoftware;
 
-import com.hastobe.transparenzsoftware.verification.DecodingException;
-import com.hastobe.transparenzsoftware.verification.EncodingType;
-import com.hastobe.transparenzsoftware.verification.ValidationException;
-import com.hastobe.transparenzsoftware.verification.format.alfen.AlfenSignature;
+import com.hastobe.transparenzsoftware.v100.verification.DecodingException;
+import com.hastobe.transparenzsoftware.v100.verification.EncodingType;
+import com.hastobe.transparenzsoftware.v100.verification.ValidationException;
+import com.hastobe.transparenzsoftware.v100.verification.format.alfen.AlfenSignature;
 
 import java.io.File;
 import java.io.FileNotFoundException;
