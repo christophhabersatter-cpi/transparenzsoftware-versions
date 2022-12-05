@@ -4,34 +4,23 @@ import static org.junit.Assert.assertEquals;
 
 import java.awt.Component;
 import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.RenderingHints.Key;
-import java.awt.event.KeyEvent;
 import java.io.File;
 import java.util.regex.Pattern;
 
-import javax.swing.CellRendererPane;
-import javax.swing.JComponent;
-import javax.swing.JFileChooser;
-import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
-import org.assertj.swing.core.BasicRobot;
-import org.assertj.swing.core.KeyPressInfo;
 import org.assertj.swing.edt.GuiActionRunner;
-import org.assertj.swing.finder.WindowFinder;
 import org.assertj.swing.fixture.DialogFixture;
 import org.assertj.swing.fixture.FrameFixture;
 import org.assertj.swing.fixture.JFileChooserFixture;
 import org.assertj.swing.timing.Timeout;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Test;
 
-import com.hastobe.transparenzsoftware.gui.listeners.OpenFileBtnListener;
-import com.hastobe.transparenzsoftware.gui.views.MainView;
-import com.hastobe.transparenzsoftware.verification.VerificationParserFactory;
+import com.hastobe.transparenzsoftware.v110.gui.listeners.OpenFileBtnListener;
+import com.hastobe.transparenzsoftware.v110.gui.views.MainView;
+import com.hastobe.transparenzsoftware.v110.verification.VerificationParserFactory;
 
 public class AbstractAppTest {
 
